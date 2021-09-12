@@ -31,7 +31,10 @@ jobs:
 
       - name: Build Solution
         run: |
-          msbuild.exe Sandbox.sln /p:platform="Any CPU" /p:configuration="Release"
+          msbuild.exe Sandbox.sln /p:platform="Any CPU" 
         
       - name: Run Tests
         run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll
+      - name: Code Cove
+      - uses: codecov/codecov-action@v2
+
