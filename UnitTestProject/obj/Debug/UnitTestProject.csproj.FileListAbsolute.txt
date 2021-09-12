@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Sandbox.exe
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Sandbox.pdb
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Sandbox.exe.config
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\USER\Desktop\Sandbox\UnitTestProject\obj\Debug\UnitTestProject.pdb
