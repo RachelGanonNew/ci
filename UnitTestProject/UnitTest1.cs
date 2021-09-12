@@ -12,7 +12,7 @@ namespace UnitTestProject
         {
             Class1 c = new Class1();
             int res = c.add(2, 3);
-                Assert.AreEqual(res, 0);
+                Assert.AreEqual(res, 5);
           
    
 
