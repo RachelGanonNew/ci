@@ -34,4 +34,4 @@ jobs:
           msbuild.exe Sandbox.sln /p:platform="Any CPU" /p:configuration="Release"
         
       - name: Run Tests
-        run: vstest.console.exe .\tests\Sandbox.Tests\bin\Release\Sandbox.Tests.dll
+        run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll
