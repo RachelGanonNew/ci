@@ -31,10 +31,8 @@ jobs:
 
       - name: Build Solution
         run: |
-          msbuild.exe Sandbox.sln /p:platform="Any CPU" 
+          msbuild.exe Sandbox.sln /p:RunCodeAnalysis=true
         
       - name: Run Tests
         run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll
-      - name: Code Cove
-      - uses: codecov/codecov-action@v2
 
