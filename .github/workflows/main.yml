@@ -35,4 +35,23 @@ jobs:
         
       - name: Run Tests
         run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll /Enablecodecoverage
+        
+      - name: Setup .NET Core # Required to execute ReportGenerator
+        uses: actions/setup-dotnet@v1
+        with:
+         dotnet-version: 5.0.301
+      - name: ReportGenerator
+        uses: danielpalme/ReportGenerator-GitHub-Action@4.8.12
+        with:
+            reports: 'coverage.xml' 
+            targetdir: 'coveragereport' 
+            reporttypes: 'HtmlInline;Cobertura' 
+            tag: '${{ github.run_number }}_${{ github.run_id }}'
+            toolpath: 'reportgeneratortool' 
+            
+      - name: Uploading artifacts
+        uses: actions/upload-artifact@v2
+        with: 
+          name: ${{ env.NAME }}_${{ env.CI_PIPELINE_VERSION }}
+          path: coveragereport
 
