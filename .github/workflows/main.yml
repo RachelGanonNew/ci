@@ -31,8 +31,8 @@ jobs:
 
       - name: Build Solution
         run: |
-          msbuild.exe Sandbox.sln /p:RunCodeAnalysis=true
+          msbuild.exe Sandbox.sln 
         
       - name: Run Tests
-        run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll
+        run: vstest.console.exe UnitTestProject/bin/Debug/UnitTestProject.dll /Enablecodecoverage
 
