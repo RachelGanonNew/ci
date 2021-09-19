@@ -43,7 +43,7 @@ jobs:
       - name: ReportGenerator
         uses: danielpalme/ReportGenerator-GitHub-Action@4.8.12
         with:
-            reports: 'coverage.xml' 
+            reports: 'D:\a\ci\ci\TestResults\9dfe35e2-dd9d-457f-832d-dafd9da020df\runneradmin_fv-az71-908_2021-09-19.13_36_11.coverage'
             targetdir: 'coveragereport' 
             reporttypes: 'HtmlInline;Cobertura' 
             tag: '${{ github.run_number }}_${{ github.run_id }}'
